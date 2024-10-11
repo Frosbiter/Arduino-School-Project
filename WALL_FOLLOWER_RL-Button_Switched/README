@@ -1,10 +1,10 @@
-This is Experiment-based school projects, we used a ESP8266 board series
+This is an Experiment-based school project, we used an ESP8266 board series.
 
 Library Needed:
-1. Wire.h
+1. Wire. h
 2. LiquidCrystal_I2C.h
 
-pin used:
+Pin used:
 
 //Sensor Pin
 FTRIG  14 // D3
@@ -24,6 +24,8 @@ RIGHT_MOTOR_FORWARD 15 // D8
 MODE_BUTTON 12 //D6
 
 
-this experimental project use button to switch between two mode of wall following robot, Left Wall Following and Right Wall Following, also use a 16x2 LCD with I2C module as display, we encounter an obstacle where the display can't be read because of the low voltage from the source since this project use the input voltage from the microcontroller to supply the motor, LCD, driver and sensors, so, please use external source to supply the equipment. 
+this experimental project uses a button to switch between two modes of wall following robots, Left Wall Following and Right Wall Following, also uses a 16x2 LCD with an I2C module as a display, 
+we encountered an obstacle where the display couldn't be read because of the low voltage from the source since this project uses the input voltage from the microcontroller to supply the motor, 
+LCD, driver, and sensors, so, please use an external source to supply the equipment. 
 
 for the driver we didn't use the L298N, but using MOSFET driver from: https://fahmizaleeits.wordpress.com/tag/driver-motor-dc/
