@@ -250,7 +250,7 @@ void enrollFingerprint(String name, String division) {
 
 void setup() {
   Serial.begin(115200);
-  Serial1.begin(57600); // Begin Serial1 for fingerprint communication
+  Serial1.begin(57600, SERIAL_8N1, FINGERPRINT_RX_PIN, FINGERPRINT_TX_PIN); // Begin Serial1 for fingerprint communication
 
   // Initialize buttons
   pinMode(CHECK_IN_BUTTON_PIN, INPUT_PULLUP);
