@@ -4,7 +4,7 @@ Library Needed:
 1. Wire.h
 2. LiquidCrystal_I2C.h
 
-pin usage:
+pin used:
 
 //Sensor Pin
 FTRIG  14 // D3
